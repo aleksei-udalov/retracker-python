@@ -16,5 +16,6 @@ For example you has 2 local computers. 192.168.0.100 and 192.168.0.101
 2) At 192.168.0.100 go to transmission, select one of torrents (you can select more than 1 torrent with ctrl or shift key), go to properties, trackers, and add new tracker:
 http://ip_from_step_1:8888
 3) Repeat step 2 on all your computers.
+4) Wait about 1 minute and check speed.
 
 Another way is set up local DNS so requests to retracker.local will be proceed to computer with retracker. Also, you will need to change retracker port to 80. And this way will work not for all torrents.
